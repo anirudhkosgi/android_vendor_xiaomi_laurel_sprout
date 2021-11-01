@@ -3891,7 +3891,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.1 \
     CACertService \
     CneApp \
-    ConnectionSecurityService \
     IWlanService \
     TimeService \
     pasrservice \
