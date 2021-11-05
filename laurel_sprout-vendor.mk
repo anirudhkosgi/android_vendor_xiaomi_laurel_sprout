@@ -3862,7 +3862,6 @@ PRODUCT_PACKAGES += \
     DynamicDDSService \
     QtiTelephonyService \
     atfwd \
-    datastatusnotification \
     embms \
     imssettings \
     WfdService \
