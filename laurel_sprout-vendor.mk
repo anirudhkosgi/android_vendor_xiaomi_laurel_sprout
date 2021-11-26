@@ -2967,6 +2967,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/rmt_storage:$(TARGET_COPY_OUT_VENDOR)/bin/rmt_storage \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/secure_ui_sample_client:$(TARGET_COPY_OUT_VENDOR)/bin/secure_ui_sample_client \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/shsusrd:$(TARGET_COPY_OUT_VENDOR)/bin/shsusrd \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/slim_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/slim_daemon \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/ssgqmigd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgqmigd \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/ssgtzd:$(TARGET_COPY_OUT_VENDOR)/bin/ssgtzd \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/ssr_setup:$(TARGET_COPY_OUT_VENDOR)/bin/ssr_setup \
@@ -2980,8 +2981,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/xtra-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/xtra-daemon \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
@@ -3066,11 +3065,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/init/vendor.qti.tftp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.tftp.rc \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/init/vendor.sensors.qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.sensors.qti.rc \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/init/wfdvndservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/wfdvndservice.rc \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/lm/AppClassifierFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AppClassifierFeature.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/lm/GameOptimizationFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/GameOptimizationFeature.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
@@ -3078,7 +3075,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/seccomp_policy/atfwd@2.0.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/atfwd@2.0.policy \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/seccomp_policy/imsrtp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/imsrtp.policy \
@@ -3090,7 +3086,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/ssg/tz_whitelist.json:$(TARGET_COPY_OUT_VENDOR)/etc/ssg/tz_whitelist.json \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/com.dsi.ant@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.dsi.ant@1.0.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.dpm.api@1.0.so \
@@ -3176,7 +3171,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadreno_utils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsp_default_listener.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadsprpc.so \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaoa.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1cper.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crt.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libasn1crtx.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudcal.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioparsers.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbase64.so \
@@ -3216,6 +3213,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgdtap.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgnsspps.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgps.utils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgpudataproducer.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgsl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdcp1prov.so \
@@ -3359,6 +3357,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libwqe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwqe.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxml.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtadapter.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxtwifi_server_protocol_uri_v3.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/qcrild_librilutils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib/qtibus.so \
@@ -3556,8 +3556,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libadreno_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadreno_utils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libadsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsp_default_listener.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libadsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libadsprpc.so \
-    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libaoa.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaoa.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libappclassifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libappclassifier.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libasn1cper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1cper.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libasn1crt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crt.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libasn1crtx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libasn1crtx.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libaudcal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudcal.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libaudioparsers.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaudioparsers.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
@@ -3592,6 +3594,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgarden_haltests_e2e.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden_haltests_e2e.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgpudataproducer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpudataproducer.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libhdcp1prov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdcp1prov.so \
@@ -3728,6 +3731,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwvhidl.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libxtwifi_server_protocol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol.so \
+    vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/libxtwifi_server_protocol_uri_v3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtwifi_server_protocol_uri_v3.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/mediadrm/libwvdrmengine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mediadrm/libwvdrmengine.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/xiaomi/laurel_sprout/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
